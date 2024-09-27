@@ -98,8 +98,8 @@ jobs:
               ${{ github.event.inputs.EXTRA_CMD }}; \
               chmod +x dumper.sh;\
               bash dumper.sh '${{ github.event.inputs.ROM_URL }}' 
-              # This build was run from OkBuddyGSI 
-              # Triggered by ${{ github.actor }} representing OkBuddyGSI
+              # This build was run by ${{ github.repository_owner }} 
+              # Triggered by ${{ github.actor }}
               
               # Respect the Queue
               # Respect the rules"
