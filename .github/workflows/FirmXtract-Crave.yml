@@ -1,4 +1,4 @@
-name: DumprX Using Crave
+name: FirmXtract-Crave
  
 on:
   workflow_dispatch:
