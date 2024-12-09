@@ -8,7 +8,7 @@ on:
         required: true
        # Requester
       USER_NAME:
-        description: "Telegram Username of Who Requested The Dump"
+        description: "justin
         required: false
       EXTRA_CMD:
         description: "Any Extra Command to Run Before Dump"
